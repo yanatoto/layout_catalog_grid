@@ -28,6 +28,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  .catalog {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
 @media (max-width: 488px) {
   .catalog {
     grid-template-columns: repeat(1, minmax(200px, 1fr));
