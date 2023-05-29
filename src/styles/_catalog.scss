@@ -1,6 +1,6 @@
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, auto-fill);
+  grid-template-columns: repeat(auto-fill, 1fr);
   gap: 48px;
   box-sizing: border-box;
   margin: 0 auto;
