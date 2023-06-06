@@ -1,10 +1,10 @@
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
   gap: 48px;
   box-sizing: border-box;
-  margin: 0 auto;
-
+  justify-items: center;
+  align-items: center;
+  
   &__card {
     display: flex;
     justify-content: center;
