@@ -1,9 +1,11 @@
 .catalog {
-  display: grid;
-  gap: 48px;
   box-sizing: border-box;
+  display: grid;
   justify-items: center;
   align-items: center;
+  max-width: 1200px;
+  gap: 48px;
+  margin: 0 auto;
   
   &__card {
     display: flex;
@@ -11,7 +13,6 @@
     align-items: center;
     height: 300px;
     width: 200px;
-    max-width: 200px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
